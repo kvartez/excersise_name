@@ -11,12 +11,12 @@ struct uczen
 int main(int argc, char** argv) {
 	uczen t[N];
 	for(int i =0; i<N;i++){
-		cout <<i<< endl;
-		cout<< "podaj imie";
+		cout <<"id:"<<i<< endl;
+		cout<< "podaj imie:";
 		cin >> t[i].imie;
-		cout<< "podaj nazwisko";
+		cout<< "podaj nazwisko:";
 		cin >> t[i].nazwisko;
-		cout<< "podaj numer";
+		cout<< "podaj numer:";
 		cin >> t[i].numer;
 		
 	}	
